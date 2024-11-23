@@ -1,0 +1,40 @@
+body {
+    background-color: #a2c9dc;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    
+    margin: 20px 0;
+}
+
+caption {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 10px;
+}
+
+th {
+    background-color: #d8e9e3;
+    padding: 10px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #e1b4c6; /* Цвет для четных строк */
+}
+
+tr:nth-child(odd) {
+    background-color: #bef3ce; /* Цвет для нечетных строк */
+}
+
+tr:hover {
+    background-color: #a9a5a5; /* Цвет при наведении на строку */
+}

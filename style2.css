@@ -1,0 +1,157 @@
+body {
+    background-color: #a2c9dc; 
+}
+
+.content-left, .content-right {
+    background: #a2c9dc; 
+    margin: 10px; 
+    padding: 20px; 
+    border-radius: 10px; 
+}
+
+.content-left {
+    width: 65%; 
+}
+
+.content-right {
+    width: 30%; 
+}
+
+h1, h2 {
+    font-size: 24px; 
+    color: #333; 
+}
+
+p {
+    font-size: 18px; 
+    color: #555; 
+}
+
+ul, ol {
+    font-size: 18px; 
+    color: #666;
+}
+
+a {
+    color: #044382; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+}
+
+.container {
+    display: flex; 
+    justify-content: center; 
+    margin-top: 20px; 
+}
+
+.block {
+    width: 300px; 
+    padding: 20px; 
+    background-color: #beefaa; 
+    text-align: center; 
+    border: 1px solid #1b4d22; 
+}
+
+.container-2 {
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 400px; 
+    background-color: #a2c9dc; 
+    margin-top: 20px; 
+}
+
+.block-2 {
+    width: 200px; 
+    height: 200px; 
+    background-color: #b596f8; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    text-align: center; 
+}
+
+.container-3 {
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    background-color: #a2c9dc; 
+    border: 2px solid #175270; 
+    padding: 10px; 
+}
+
+.block-3 {
+    width: 200px; 
+    height: 200px; 
+    background-color: #16340a; 
+    margin: 10px; 
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+    background-color: #beefaa;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #b596f8;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.block-3 {
+    width: 200px;
+    height: 200px;
+    background-color: #beefaa;
+    margin: 3px;
+}
+.block-4 {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border: 3px solid red;
+    margin: 10px;
+}
+
+.block-absolute {
+    position: absolute;
+    border: 3px solid blue;
+    left: 70px;
+    bottom: -860px;
+}
+
+.block-absolute-2 {
+    position: absolute;
+    border: 3px solid green;
+    left: 130px;
+    bottom: -910px;
+}
+
+.block-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+
+.content-img-2 {
+    width: 5px;
+    height: 10px;
+}
+
+.fixed-cat {
+    position: fixed; 
+    bottom: 5px; 
+    right: 10px; 
+}
